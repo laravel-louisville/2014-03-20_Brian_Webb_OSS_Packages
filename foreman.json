@@ -1,0 +1,124 @@
+{
+    "structure": {
+        "copy": [
+            {
+                "from": "/Users/bwebb/Desktop/frmn-demo/app/lib/Contracts/Instances/InstanceInterface.php",
+                "to": "app/lib/Contracts/Instances/InstanceInterface.php"
+            },
+            {
+                "from": "/Users/bwebb/Desktop/frmn-demo/app/lib/Contracts/Notification/CreatorInterface.php",
+                "to": "app/lib/Contracts/Notification/CreatorInterface.php"
+            },
+            {
+                "from": "/Users/bwebb/Desktop/frmn-demo/app/lib/Contracts/Notification/DestroyerInterface.php",
+                "to": "app/lib/Contracts/Notification/DestroyerInterface.php"
+            },
+            {
+                "from": "/Users/bwebb/Desktop/frmn-demo/app/lib/Contracts/Notification/UpdaterInterface.php",
+                "to": "app/lib/Contracts/Notification/UpdaterInterface.php"
+            },
+            {
+                "from": "/Users/bwebb/Desktop/frmn-demo/app/lib/Contracts/Repositories/RepositoryInterface.php",
+                "to": "app/lib/Contracts/Repositories/RepositoryInterface.php"
+            },
+            {
+                "from": "/Users/bwebb/Desktop/frmn-demo/app/lib/Providers/RepositoriesServiceProvider.php",
+                "to": "app/lib/Providers/RepositoriesServiceProvider.php"
+            },
+            {
+                "from": "/Users/bwebb/Desktop/frmn-demo/app/lib/Repositories/DbRepository.php",
+                "to": "app/lib/Repositories/DbRepository.php"
+            },
+            {
+                "from": "/Users/bwebb/Desktop/frmn-demo/app/lib/Validators/Validator.php",
+                "to": "app/lib/Validators/Validator.php"
+            },
+            {
+                "from": "/Users/bwebb/Desktop/frmn-demo/database.php",
+                "to": "app/config/database.php"
+            },
+            {
+                "from": "/Users/bwebb/Desktop/frmn-demo/scaffold.blade.php",
+                "to": "app/views/layouts/scaffold.blade.php"
+            }
+        ],
+        "move": [
+            {
+                "from": "",
+                "to": ""
+            }
+        ],
+        "delete": [
+
+        ],
+        "touch": [
+
+        ],
+        "mkdir": [
+            "app/lib/Services"
+        ]
+    },
+    "composer": {
+        "require": [
+            {
+                "package": "php",
+                "version": ">=5.4.0"
+            },
+            {
+                "package": "laravel/framework",
+                "version": "4.1.*"
+            },
+            {
+                "package": "nesbot/Carbon",
+                "version": "*"
+            }
+        ],
+        "require-dev": [
+            {
+                "package": "mockery/mockery",
+                "version": "dev-master"
+            },
+            {
+                "package": "hot/phpunit-runner",
+                "version": "dev-master"
+            },
+            {
+                "package": "phpunit/phpunit",
+                "version": "dev-master"
+            },
+            {
+                "package": "codeception/codeception",
+                "version": "1.8.*@dev"
+            },
+            {
+                "package": "squizlabs/php_codesniffer",
+                "version": "*"
+            },
+            {
+                "package": "fabpot/php-cs-fixer",
+                "version": "*"
+            },
+            {
+                "package": "phpmd/phpmd",
+                "version": "*"
+            }
+        ],
+        "autoload": {
+            "classmap": [
+                "app/lib",
+                "app/commands",
+                "app/controllers",
+                "app/models",
+                "app/database/migrations",
+                "app/database/seeds",
+                "app/tests/TestCase.php"
+            ],
+            "psr-0": [
+
+            ],
+            "psr-4": [
+
+            ]
+        }
+    }
+}

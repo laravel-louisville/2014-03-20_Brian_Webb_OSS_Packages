@@ -1,0 +1,63 @@
+{
+    "structure": {
+        "copy": [
+            {
+                "from": "",
+                "to": ""
+            }
+        ],
+        "move": [
+            {
+                "from": "",
+                "to": ""
+            }
+        ],
+        "delete": [
+
+        ],
+        "touch": [
+
+        ],
+        "mkdir": [
+            "app/lib/Services"
+        ]
+    },
+    "composer": {
+        "require": [
+            {
+                "package": "php",
+                "version": ">=5.4.0"
+            },
+            {
+                "package": "laravel/framework",
+                "version": "4.1.*"
+            },
+            {
+                "package": "indatus/Trucker",
+                "version": "*"
+            }
+        ],
+        "require-dev": [
+            {
+                "package": "mockery/mockery",
+                "version": "dev-master"
+            }
+        ],
+        "autoload": {
+            "classmap": [
+                "app/commands",
+                "app/controllers",
+                "app/models",
+                "app/database/migrations",
+                "app/database/seeds",
+                "app/tests/TestCase.php"
+            ],
+            "psr-0": [
+
+            ],
+            "psr-4": [
+
+            ]
+        }
+    }
+}
